@@ -7,18 +7,18 @@
 <img alt="draft-cover" src="assets/images/github-background.png">
 </p>
 
-## Running a preview version
+## プレビュー版の実行
 
-In order to run the development version, clone the repository, and install dependencies via `npm`, you need network access.
+開発バージョンを実行するには、リポジトリをクローンし、`npm`で依存関係をインストールするためにネットワークへのアクセスが必要です。
 
-You'll need the following tools:
+以下のツールが必要です:
 
 - [Git](https://git-scm.com/)
-- [NodeJS](https://nodejs.org/en/download/), **x64**, version `>=20`
+- [NodeJS](https://nodejs.org/en/download/) **x64**, バージョン `>=20`
 
-### Step by step
+### 手順
 
-- Clone the repository locally and go to the project folder.
+- リポジトリをローカルにクローンし、プロジェクトフォルダへ移動します。
 
 ```bash
 git clone https://github.com/Autonomy-Logic/openplc-editor.git
@@ -26,26 +26,26 @@ git clone https://github.com/Autonomy-Logic/openplc-editor.git
 cd openplc-editor
 ```
 
-- Install the dependencies
+- 依存関係をインストールします。
 
 ```bash
 npm install
 ```
 
-- Run the development script
+- 開発用スクリプトを実行します。
 
 ```bash
 npm run start:dev
 ```
 
-## Documentation
+## ドキュメント
 
-Please go to the repository [wiki](https://github.com/Autonomy-Logic/openplc-editor/wiki) page to get instruction about the project.
+プロジェクトに関する説明はリポジトリの[Wiki](https://github.com/Autonomy-Logic/openplc-editor/wiki)ページを参照してください。
 
-## Project Management
+## プロジェクト管理
 
-Go to [project](https://github.com/orgs/Autonomy-Logic/projects/4) management page to see the current state of the project.
+プロジェクトの現在の進行状況は[プロジェクト管理ページ](https://github.com/orgs/Autonomy-Logic/projects/4)で確認できます。
 
 ## Issues
 
-Go to [issues](https://github.com/Autonomy-Logic/openplc-editor/issues) page to view the current state of issues in the project.
+現在のIssueの状況は[Issuesページ](https://github.com/Autonomy-Logic/openplc-editor/issues)で確認できます。
